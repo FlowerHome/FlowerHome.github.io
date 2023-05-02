@@ -49,14 +49,15 @@ a:hover::before {
     font-family: sans-serif;
     background-image: url("back2.png");
     background-size:cover;
+    overflow-x:hidden;
 }
 .end {
-    position:relative;
-    right:400px;
-    bottom:100px;
+    position: relative;
+    width:500px;
+    height:200px;
+    right:150px;
     margin:0;
     padding:0;
-    scale: 0.5;
     background-image: url("back.png");
 }
 main {
